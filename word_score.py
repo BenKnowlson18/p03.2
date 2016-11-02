@@ -36,3 +36,21 @@ def run_tests():
 # Edit this code
 def scorer(word):
 
+    total = 0
+
+    for char in word:
+
+        if char in "qxyz":
+            total = total + 2
+
+        elif not char in "ieoua":
+            total = total + 1
+
+    print(total)
+    
+            
+
+                            
+
+        
+
